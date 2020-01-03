@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body,
 html{
     width: 100%;
@@ -49,4 +54,19 @@ html{
     margin-left: 670px;
     margin-top: 5px;
     border-radius: 20px;
+}
+.images{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-top: 55px;
+    height: 100%;
+    width: 500px;
+}
+.images img{
+    height: 300px;
+    width: 400px;
+    flex-wrap:wrap ;
+    margin-inline-start: 0;
+    padding: 50px;
 }
