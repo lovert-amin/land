@@ -27,12 +27,7 @@ html{
     color: #f5f5f6;
 }
 
-@media only screen and (max-width: 600px){
-    .nav-container{
-        font-size: 200px;
-        padding: 0;
-    }
-}
+
 
 .push{
     margin-left: auto;
@@ -42,16 +37,18 @@ html{
     height: 500px;
     margin: 0px;
     background-color: black;
-}
-.info h1{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.info h1{
     font-weight: bold;
     color: blanchedalmond;
 }
 
 .info img{
-    margin-left: 400px;
+   width: 50%;
 }
 
 .button-info{
@@ -60,7 +57,6 @@ html{
     border: 0;
     background-color: orange;
     font-weight: bold;
-    margin-left: 580px;
     margin-top: 5px;
     border-radius: 20px;
 }
@@ -73,15 +69,19 @@ html{
     color: rgb(240, 235, 235);
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
 .images{
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr;
-    margin: 40px 40px ;
-    height: 100%;
-    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 40px;
+    height: auto;
+    text-align: center;
 }
 .images img{
     height: 300px;
@@ -90,15 +90,14 @@ html{
     background-color: #444;
 }
 .images p {
-    display: flex;
-    justify-content: center;
     font-weight: bold;
 }
 .footer{
     height: 70px;
     width: 100%;
-    margin-top: 500px;
+    margin-top: 100px;
     background-color: darkblue;
+    margin-bottom: 0px ;
     
 }
 
