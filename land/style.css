@@ -94,6 +94,11 @@ html{
     justify-content: center;
     font-weight: bold;
 }
+
+span{
+    display: flex;
+    justify-content: center;
+}
 .footer{
     height: 70px;
     width: 100%;
@@ -110,9 +115,14 @@ html{
     color: white;
 }
 
+
+
+
 @media (min-width:600px){
     .images{
         float: left;
         padding: 0;
     }
 }
+
+
